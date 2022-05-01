@@ -622,7 +622,7 @@
     /****************************************************LATEST NEWS**********************************************************/
     
     .latest-news {
-        height: 470px;
+        height: 600px;
     }
     
     .container-news {
@@ -637,6 +637,36 @@
     .card-img-top {
         width: 100%;
         height: 100%;
+    }
+    
+    .card-news .card-body .card-title {
+        width: 75%;
+        background-color: var(--mainColor);
+        color: #fff;
+        font-size: var(--mainFont-size);
+        font-family: var(--liFont-family);
+        position: absolute;
+        bottom: 28%;
+    }
+    
+    .card-news .card-body .card-title .title-card-news {
+        font-family: var(--mainFont-family);
+        font-size: 20px;
+    }
+    
+    .card-news .card-body .card-text {
+        font-family: var(--liFont-family);
+        font-size: var(--mainFont-size);
+        color: #949494;
+        width: 85% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+    .card-news .card-body a {
+        text-decoration: none;
+        color: var(--mainColor);
+        margin-left: 80% !important;
     }
     /* ********************************************************footer******************************************************** */
     
