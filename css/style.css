@@ -731,7 +731,7 @@
 
 .footer {
     background-color: var(--color);
-    height: 500px;
+    height: 560px;
     position: relative;
 }
 
@@ -781,9 +781,15 @@
 .services-footer {
     position: relative;
     top: 12%;
-    left: 44%;
-    width: 425px;
+    left: 40%;
+    width: 450px;
     color: #fff;
+}
+
+.services-footer .title {
+    color: var(--mainColor);
+    height: 63px;
+    font-family: var(--mainFont-family);
 }
 
 .ul-services-footer {
@@ -806,6 +812,53 @@
     /* Needed to add space between the bullet and the text */
     width: 1em;
     /* Also needed for space (tweak if needed) */
-    margin-left: -1em;
+    margin-left: 2rem;
     /* Also needed for space (tweak if needed) */
+}
+
+.contactus-footer {
+    position: relative;
+    top: 1%;
+    left: 74%;
+    width: 344px;
+    color: #fff;
+}
+
+.contactus-footer .title {
+    color: var(--mainColor);
+    height: 55px;
+    font-family: var(--mainFont-family);
+}
+
+.ul-contactus-footer ul {
+    list-style: none;
+}
+
+.ul-contactus-footer ul i {
+    color: var(--mainColor);
+}
+
+.logo-footer-bottom {
+    width: fit-content;
+    position: absolute;
+    left: 50%;
+    bottom: 18%;
+}
+
+hr.new5 {
+    border: 1px solid var(--mainColor);
+    border-radius: 5px;
+    z-index: 4 !important;
+    position: absolute;
+    width: 89% !important;
+    bottom: 35px;
+    left: 78px;
+}
+
+.p-bottom-footer {
+    position: absolute;
+    bottom: 2px;
+    left: 48%;
+    color: var(--mainColor);
+    opacity: 0.5;
 }
