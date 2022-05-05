@@ -16,6 +16,10 @@
     font-family: var(--liFont-family) !important;
 }
 
+.boxed {
+    margin: 0px 110px !important;
+}
+
 
 /****************************Variables*******************************/
 
@@ -41,16 +45,18 @@
     width: 100% !important;
 }
 
-.navbar-brand {
-    padding-left: 40px !important;
+nav div {
+    margin: 25px 0px !important;
 }
+
+.navbar-brand {}
 
 .navbar-collapse {
     margin-left: 105px !important;
 }
 
 .nav-item {
-    margin-right: 25px !important;
+    margin-left: 25px !important;
     font-family: var(--mainFont-family)!important;
     font-size: var(--mainFont-size);
 }
@@ -196,13 +202,12 @@
 /*************************************section SERVICES*****************************************/
 
 .text-services-center {
-    bottom: 30px !important;
     font-family: var(--mainFont-family);
 }
 
 .card-services {
     background-color: #fff !important;
-    width: 228px !important;
+    width: 210px !important;
     height: 196px !important;
     border-bottom: solid 5px var(--mainColor);
 }
@@ -363,7 +368,7 @@
     left: 80%;
 }
 
-.owl-prev {
+.prev-project {
     background-color: var(--mainColor);
     color: #fff;
     height: 20%;
@@ -374,11 +379,11 @@
     font-family: var(--liFont-family);
 }
 
-.owl-prev i {
+.prev-project i {
     margin-right: 10px !important;
 }
 
-.owl-next {
+.next-project {
     background-color: var(--mainColor);
     color: #fff;
     height: 20%;
@@ -390,7 +395,7 @@
     margin-top: 15px !important;
 }
 
-.owl-next i {
+.next-project i {
     margin-left: 10px !important;
 }
 
@@ -436,12 +441,14 @@
 /*********************************/
 
 .container-next-ourvalues {
-    height: 555px !important;
+    height: auto !important;
+    padding-left: 110px !important;
+    width: 100% !important;
 }
 
 .img-container-our {
-    width: 1058px !important;
-    height: 372px !important;
+    width: 75% !important;
+    height: 100% !important;
 }
 
 .img-container-our img {
@@ -450,26 +457,27 @@
 }
 
 .img-top-container-our {
-    position: relative;
-    left: 457px;
-    bottom: 384px;
-    width: 1014px;
+    width: 75% !important;
+    height: 100% !important;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 
 .img-top-container-our img {
-    width: 1014px;
-    height: 401px;
+    width: 100%;
+    height: 100%;
 }
 
 .card-container-our {
-    width: 430px;
+    width: 403px;
     text-align: center;
     color: #fff;
     background: var(--color);
-    position: relative;
-    bottom: 736px;
+    position: absolute;
+    top: 60px;
     height: 300px;
-    left: 241px;
+    left: 175px;
 }
 
 .card-container-our-text {
@@ -488,6 +496,18 @@
     border: 5px solid var(--mainColor);
     text-align: center;
     text-decoration: none;
+}
+
+#carousel-custom-dots {
+    text-align: center;
+}
+
+.owl-dots li {
+    width: 8px;
+    height: 8px;
+    background: green;
+    display: inline-block;
+    border-radius: 50%;
 }
 
 
