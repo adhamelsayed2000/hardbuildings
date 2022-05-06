@@ -49,8 +49,6 @@ nav div {
     margin: 25px 0px !important;
 }
 
-.navbar-brand {}
-
 .navbar-collapse {
     margin-left: 105px !important;
 }
@@ -881,4 +879,44 @@ hr.new5 {
     left: 48%;
     color: var(--mainColor);
     opacity: 0.5;
+}
+
+
+/************************************************************CAREER****************************************************************************/
+
+.nav-default {
+    background-color: #fff !important;
+    background-image: none !important;
+    color: var(--color);
+}
+
+.nav-link-default {
+    color: var(--color) !important;
+    font-family: var(--mainFont-family);
+    font-size: 13px;
+}
+
+.nav-icon-default i {
+    color: var(--mainColor) !important;
+}
+
+.container-career {
+    background-color: var(--color);
+    height: 214px;
+    position: relative;
+    top: 75px;
+    background-image: url('../imgs/career/Mask\ Group\ 33.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text-career-center {
+    background-image: url('../imgs/background/title.png');
+    height: 15%;
+    width: 15%;
+    left: 42% !important;
+    top: 37% !important;
+    font-family: var(--mainFont-family);
+    font-size: var(--titleFont-size);
+    color: #fff;
 }
