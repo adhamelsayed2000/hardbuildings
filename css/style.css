@@ -16,6 +16,10 @@
     font-family: var(--liFont-family) !important;
 }
 
+.boxed {
+    margin: 0px 110px !important;
+}
+
 
 /****************************Variables*******************************/
 
@@ -41,8 +45,8 @@
     width: 100% !important;
 }
 
-.navbar-brand {
-    padding-left: 40px !important;
+nav div {
+    margin: 25px 0px !important;
 }
 
 .navbar-collapse {
@@ -50,7 +54,7 @@
 }
 
 .nav-item {
-    margin-right: 25px !important;
+    margin-left: 25px !important;
     font-family: var(--mainFont-family)!important;
     font-size: var(--mainFont-size);
 }
@@ -196,13 +200,12 @@
 /*************************************section SERVICES*****************************************/
 
 .text-services-center {
-    bottom: 30px !important;
     font-family: var(--mainFont-family);
 }
 
 .card-services {
     background-color: #fff !important;
-    width: 228px !important;
+    width: 210px !important;
     height: 196px !important;
     border-bottom: solid 5px var(--mainColor);
 }
@@ -363,7 +366,7 @@
     left: 80%;
 }
 
-.owl-prev {
+.prev-project {
     background-color: var(--mainColor);
     color: #fff;
     height: 20%;
@@ -374,11 +377,11 @@
     font-family: var(--liFont-family);
 }
 
-.owl-prev i {
+.prev-project i {
     margin-right: 10px !important;
 }
 
-.owl-next {
+.next-project {
     background-color: var(--mainColor);
     color: #fff;
     height: 20%;
@@ -390,7 +393,7 @@
     margin-top: 15px !important;
 }
 
-.owl-next i {
+.next-project i {
     margin-left: 10px !important;
 }
 
@@ -436,12 +439,14 @@
 /*********************************/
 
 .container-next-ourvalues {
-    height: 555px !important;
+    height: auto !important;
+    padding-left: 110px !important;
+    width: 100% !important;
 }
 
 .img-container-our {
-    width: 1058px !important;
-    height: 372px !important;
+    width: 75% !important;
+    height: 100% !important;
 }
 
 .img-container-our img {
@@ -450,26 +455,27 @@
 }
 
 .img-top-container-our {
-    position: relative;
-    left: 457px;
-    bottom: 384px;
-    width: 1014px;
+    width: 75% !important;
+    height: 100% !important;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 
 .img-top-container-our img {
-    width: 1014px;
-    height: 401px;
+    width: 100%;
+    height: 100%;
 }
 
 .card-container-our {
-    width: 430px;
+    width: 403px;
     text-align: center;
     color: #fff;
     background: var(--color);
-    position: relative;
-    bottom: 736px;
+    position: absolute;
+    top: 60px;
     height: 300px;
-    left: 241px;
+    left: 175px;
 }
 
 .card-container-our-text {
@@ -488,6 +494,18 @@
     border: 5px solid var(--mainColor);
     text-align: center;
     text-decoration: none;
+}
+
+#carousel-custom-dots {
+    text-align: center;
+}
+
+.owl-dots li {
+    width: 8px;
+    height: 8px;
+    background: green;
+    display: inline-block;
+    border-radius: 50%;
 }
 
 
@@ -861,4 +879,172 @@ hr.new5 {
     left: 48%;
     color: var(--mainColor);
     opacity: 0.5;
+}
+
+
+/************************************************************CAREER****************************************************************************/
+
+.nav-default {
+    background-color: #fff !important;
+    background-image: none !important;
+    color: var(--color);
+    position: relative !important;
+}
+
+.nav-link-default {
+    color: var(--color) !important;
+    font-family: var(--mainFont-family);
+    font-size: 13px;
+}
+
+.nav-icon-default i {
+    color: var(--mainColor) !important;
+}
+
+.container-career {
+    background-color: var(--color);
+    height: 214px;
+    position: relative;
+    background-image: url('../imgs/career/Mask\ Group\ 33.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.text-career-center {
+    background-image: url('../imgs/background/title.png');
+    height: 15%;
+    width: 15%;
+    left: 42% !important;
+    top: 37% !important;
+    font-family: var(--mainFont-family);
+    font-size: var(--titleFont-size);
+    color: #fff;
+}
+
+.text-career-center .text-center h2 {
+    font-family: var(--mainFont-family);
+}
+
+.section-header-career {
+    text-align: center;
+}
+
+.section-header-career div {
+    margin-top: 30px !important;
+}
+
+.section-header-career div .title {
+    color: var(--mainColor);
+    font-family: var(--mainFont-family);
+    font-size: var(--titleFont-size);
+}
+
+.section-header-career div .text-title {
+    color: var(--color);
+    font-family: var(--mainFont-family);
+    font-size: 22px !important;
+}
+
+.section-header-career div .text-header {
+    color: #9F9F9F;
+    font-size: 14px !important;
+    font-family: var(--mainFont-family) !important;
+}
+
+.section-form-career {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0px 0px 0px 110px !important;
+    margin-top: 60px !important;
+    margin-bottom: 25px !important;
+}
+
+.section-form-career .form-career {
+    width: 62%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.section-form-career .form-career form {
+    width: 100%;
+}
+
+.section-form-career .form-career .title-form {
+    color: var(--color);
+    font-size: 17px;
+    font-family: var(--mainFont-family);
+}
+
+.section-form-career .form-career .title-form span {
+    color: var(--mainColor);
+}
+
+.section-form-career .form-career input {
+    width: 100%;
+    border: #C7C7C7 1px solid;
+    border-radius: 4px;
+    height: 40px !important;
+}
+
+.section-form-career .form-career input[type="file"] {
+    display: none;
+}
+
+.section-form-career .form-career .career-file-upload {
+    border: #C7C7C7 1px solid;
+    width: 100%;
+    text-align: end;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.section-form-career .form-career .career-file-upload p {
+    width: 78px !important;
+    color: var(--color);
+    background-color: var(--mainColor);
+    float: right;
+    margin: 7px 5px !important;
+    font-family: var(--liFont-family);
+    font-size: 13px !important;
+    padding: 5px !important;
+}
+
+.section-form-career .form-career textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: #C7C7C7 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    color: var(--color);
+}
+
+.section-form-career .form-career .sub-form {
+    background-color: var(--color) !important;
+    color: #fff !important;
+    width: 16% !important;
+    margin-top: 13px !important;
+}
+
+.section-form-career .img-career {
+    width: 38%;
+    height: 490px;
+    float: right;
+    position: relative;
+    background-image: url(../imgs/career/Asset\ 3@4x.png);
+    background-repeat: round;
+    background-size: contain;
+    margin-top: 72px !important;
+}
+
+.section-form-career .img-career .logo-form-career {
+    position: absolute;
+    width: 100%;
+    height: 578px;
+    bottom: -40px !important;
 }
