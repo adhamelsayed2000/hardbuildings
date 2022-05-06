@@ -888,6 +888,7 @@ hr.new5 {
     background-color: #fff !important;
     background-image: none !important;
     color: var(--color);
+    position: relative !important;
 }
 
 .nav-link-default {
@@ -904,7 +905,6 @@ hr.new5 {
     background-color: var(--color);
     height: 214px;
     position: relative;
-    top: 75px;
     background-image: url('../imgs/career/Mask\ Group\ 33.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -919,4 +919,132 @@ hr.new5 {
     font-family: var(--mainFont-family);
     font-size: var(--titleFont-size);
     color: #fff;
+}
+
+.text-career-center .text-center h2 {
+    font-family: var(--mainFont-family);
+}
+
+.section-header-career {
+    text-align: center;
+}
+
+.section-header-career div {
+    margin-top: 30px !important;
+}
+
+.section-header-career div .title {
+    color: var(--mainColor);
+    font-family: var(--mainFont-family);
+    font-size: var(--titleFont-size);
+}
+
+.section-header-career div .text-title {
+    color: var(--color);
+    font-family: var(--mainFont-family);
+    font-size: 22px !important;
+}
+
+.section-header-career div .text-header {
+    color: #9F9F9F;
+    font-size: 14px !important;
+    font-family: var(--mainFont-family) !important;
+}
+
+.section-form-career {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0px 0px 0px 110px !important;
+    margin-top: 60px !important;
+    margin-bottom: 25px !important;
+}
+
+.section-form-career .form-career {
+    width: 62%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.section-form-career .form-career form {
+    width: 100%;
+}
+
+.section-form-career .form-career .title-form {
+    color: var(--color);
+    font-size: 17px;
+    font-family: var(--mainFont-family);
+}
+
+.section-form-career .form-career .title-form span {
+    color: var(--mainColor);
+}
+
+.section-form-career .form-career input {
+    width: 100%;
+    border: #C7C7C7 1px solid;
+    border-radius: 4px;
+    height: 40px !important;
+}
+
+.section-form-career .form-career input[type="file"] {
+    display: none;
+}
+
+.section-form-career .form-career .career-file-upload {
+    border: #C7C7C7 1px solid;
+    width: 100%;
+    text-align: end;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.section-form-career .form-career .career-file-upload p {
+    width: 78px !important;
+    color: var(--color);
+    background-color: var(--mainColor);
+    float: right;
+    margin: 7px 5px !important;
+    font-family: var(--liFont-family);
+    font-size: 13px !important;
+    padding: 5px !important;
+}
+
+.section-form-career .form-career textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: #C7C7C7 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    color: var(--color);
+}
+
+.section-form-career .form-career .sub-form {
+    background-color: var(--color) !important;
+    color: #fff !important;
+    width: 16% !important;
+    margin-top: 13px !important;
+}
+
+.section-form-career .img-career {
+    width: 38%;
+    height: 490px;
+    float: right;
+    position: relative;
+    background-image: url(../imgs/career/Asset\ 3@4x.png);
+    background-repeat: round;
+    background-size: contain;
+    margin-top: 72px !important;
+}
+
+.section-form-career .img-career .logo-form-career {
+    position: absolute;
+    width: 100%;
+    height: 578px;
+    bottom: -40px !important;
 }
