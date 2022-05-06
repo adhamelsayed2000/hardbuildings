@@ -1048,3 +1048,130 @@ hr.new5 {
     height: 578px;
     bottom: -40px !important;
 }
+
+
+/**********************************************************Contact_us*****************************************************/
+
+.section-form-Contact_us {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0px 0px 0px 110px !important;
+    margin-top: 60px !important;
+    margin-bottom: 25px !important;
+}
+
+.section-form-Contact_us .form-Contact_us {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.section-form-Contact_us .form-Contact_us form {
+    width: 100%;
+}
+
+.section-form-Contact_us .form-Contact_us .title-form {
+    color: var(--color);
+    font-size: 17px;
+    font-family: var(--mainFont-family);
+}
+
+.section-form-Contact_us .form-Contact_us .title-form span {
+    color: var(--mainColor);
+}
+
+.section-form-Contact_us .form-Contact_us input {
+    width: 100%;
+    border: #C7C7C7 1px solid;
+    border-radius: 4px;
+    height: 40px !important;
+}
+
+.section-form-Contact_us .form-Contact_us textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: #C7C7C7 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+    color: var(--color);
+}
+
+.section-form-Contact_us .form-Contact_us .sub-form {
+    background-color: var(--color) !important;
+    color: #fff !important;
+    width: 16% !important;
+    margin-top: 13px !important;
+}
+
+.section-form-Contact_us .form-Contact_us .form-Contact_us_title {
+    margin-bottom: 40px !important;
+    width: 38%;
+}
+
+.section-form-Contact_us .form-Contact_us .form-Contact_us_title p {
+    color: var(--color);
+    font-family: var(--mainFont-family);
+    font-size: 20PX !important;
+}
+
+.section-form-Contact_us .form-Contact_us .form-Contact_us_title img {
+    width: 100%;
+}
+
+
+/************************************************************************************************/
+
+.section-form-Contact_us .Contact_Information {
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: relative;
+    padding-left: 50px !important;
+}
+
+.section-form-Contact_us .Contact_Information .form-Contact_us_title {
+    margin-bottom: 40px !important;
+    width: 38%;
+}
+
+.section-form-Contact_us .Contact_Information .form-Contact_us_title p {
+    color: var(--color);
+    font-family: var(--mainFont-family);
+    font-size: 20PX !important;
+}
+
+.section-form-Contact_us .Contact_Information .form-Contact_us_title img {
+    width: 100%;
+}
+
+.section-form-Contact_us .Contact_Information .Contact_us_Information {
+    width: 80%;
+    margin-top: 44px !important;
+}
+
+.section-form-Contact_us .Contact_Information .Contact_us_Information .title {
+    color: var(--mainColor);
+    font-size: 20px;
+    font-family: var(--mainFont-family);
+    margin: 15px 0px !important;
+}
+
+.section-form-Contact_us .Contact_Information .Contact_us_Information .text {
+    color: var(--color);
+    font-family: var(--liFont-family);
+    font-size: var(--mainFont-size);
+}
+
+.section-form-Contact_us .Contact_Information .Contact_us_Information .icon .nav-item .nav-link {
+    color: var(--color) !important;
+}
+
+.section-form-Contact_us .Contact_Information .Contact_us_Information .icon .nav-item {
+    margin-left: 46px !important;
+    font-size: 27px;
+}
