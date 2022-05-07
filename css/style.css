@@ -545,7 +545,7 @@ nav div {
 .container-our-client {
     width: 90%;
     height: 600px !important;
-    margin: 0px 80px !important;
+    margin: 0px 110px !important;
 }
 
 .our-client-header {
@@ -1174,4 +1174,73 @@ hr.new5 {
 .section-form-Contact_us .Contact_Information .Contact_us_Information .icon .nav-item {
     margin-left: 46px !important;
     font-size: 27px;
+}
+
+
+/********************************************************News*************************************************************************/
+
+.container-news .row-news .col-news {
+    height: 100% !important;
+    border: #707070 solid 1px;
+    box-shadow: 3px 4px 10px 5px rgba(0, 0, 0, 0.16);
+    margin: 15px 0px !important;
+}
+
+.container-news .row-news .col-news .img-news {
+    height: 50% !important;
+}
+
+.container-news .row-news .col-news .img-news .title-img-news {
+    background-color: var(--mainColor);
+    color: #fff;
+    font-size: 20px;
+    font-family: var(--mainFont-family);
+    bottom: 0px;
+    width: 25%;
+    height: 17%;
+    text-align: center;
+}
+
+.container-news .row-news .col-news .img-news .title-img-news p {
+    margin-top: 7px !important;
+}
+
+.container-news .row-news .col-news .text-news {
+    width: 100% !important;
+    margin-left: 15px !important;
+    margin-top: 10px !important;
+    margin-bottom: 15px !important;
+}
+
+.container-news .row-news .col-news .text-news .text-news-date {
+    color: #9F9F9F;
+    font-family: var(--liFont-family);
+    font-size: var(--mainFont-size);
+}
+
+.container-news .row-news .col-news .text-news .text-news-title {
+    color: var(--mainColor);
+    font-family: var(--mainFont-family);
+    font-size: 20px;
+}
+
+.container-news .row-news .col-news .text-news .text-news-paragraph {
+    color: #9F9F9F;
+    font-family: var(--liFont-family);
+    font-size: var(--mainFont-size);
+    width: 80%;
+}
+
+.container-news .row-news .col-news .text-news a {
+    bottom: 0px;
+    right: 30px;
+    background-color: var(--mainColor);
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--liFont-family);
+    font-size: var(--mainFont-size);
+    width: 16%;
+    text-align: center;
+    border: rgba(112, 112, 112, 0.5) 1px solid;
+    border-radius: 3px;
 }
