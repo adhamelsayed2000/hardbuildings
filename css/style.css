@@ -1179,18 +1179,18 @@ hr.new5 {
 
 /********************************************************News*************************************************************************/
 
- .col-news {
+.col-news {
     height: 100% !important;
     border: #707070 solid 1px;
     box-shadow: 3px 4px 10px 5px rgba(0, 0, 0, 0.16);
-    margin: 15px 0px !important;
+    margin: 15px 10px !important;
 }
 
- .img-news {
+.img-news {
     height: 50% !important;
 }
 
-.col-news .img-news .title-img-news {
+.img-news .title-img-news {
     background-color: var(--mainColor);
     color: #fff;
     font-size: 20px;
@@ -1207,31 +1207,31 @@ hr.new5 {
 
 .text-news {
     width: 100% !important;
-    margin-left: 15px !important;
+    padding-left: 15px !important;
     margin-top: 10px !important;
     margin-bottom: 15px !important;
 }
 
- .col-news .text-news .text-news-date {
+.text-news .text-news-date {
     color: #9F9F9F;
     font-family: var(--liFont-family);
     font-size: var(--mainFont-size);
 }
 
-.col-news .text-news .text-news-title {
+.text-news .text-news-title {
     color: var(--mainColor);
     font-family: var(--mainFont-family);
     font-size: 20px;
 }
 
-.col-news .text-news .text-news-paragraph {
+.text-news .text-news-paragraph {
     color: #9F9F9F;
     font-family: var(--liFont-family);
     font-size: var(--mainFont-size);
     width: 80%;
 }
 
-.col-news .text-news a {
+.text-news a {
     bottom: 0px;
     right: 30px;
     background-color: var(--mainColor);
