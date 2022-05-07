@@ -1244,3 +1244,25 @@ hr.new5 {
     border: rgba(112, 112, 112, 0.5) 1px solid;
     border-radius: 3px;
 }
+
+.button-news {
+    height: 100% !important;
+    text-align: center;
+    margin: 25px 0px !important;
+}
+
+.button-news a {
+    background-color: #EEEEEE;
+    width: 6% !important;
+    display: inline-block;
+    text-decoration: none;
+    color: #9F9F9F;
+    padding: 5px 0px !important;
+    font-family: var(--liFont-family);
+    font-size: var(--mainFont-size);
+}
+
+.button-news .active {
+    background-color: var(--mainColor) !important;
+    color: #fff !important;
+}
