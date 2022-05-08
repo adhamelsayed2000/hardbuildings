@@ -1266,3 +1266,78 @@ hr.new5 {
     background-color: var(--mainColor) !important;
     color: #fff !important;
 }
+
+
+/***********************************************************partner***********************************************************************************/
+
+.row-partner {
+    margin-top: 40px !important;
+}
+
+.img-left-first-partner {
+    background-image: url(../imgs/partner/Mask\ Group\ 62.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 335px;
+}
+
+.col-img-partner .col-logo-left-partner {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.col-text-partner {
+    height: 335px;
+    ;
+}
+
+.col-text-partner .text-col {
+    height: 100%;
+    margin: 35px 74px !important;
+}
+
+.col-text-partner .text-col p {
+    font-size: var(--mainFont-size);
+    color: #7A7A7A;
+    font-family: var(--liFont-family);
+    height: 50%;
+}
+
+.col-text-partner .text-col h3 {
+    font-family: var(--mainFont-family) !important;
+    color: var(--color);
+    font-size: 20px !important;
+    margin: 5px 0px !important;
+}
+
+.img-left-second-partner {
+    background-image: url(../imgs/partner/Mask\ Group\ 63.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 335px;
+}
+
+.col-logo-right-partner {
+    width: 20% !important;
+    height: 100% !important;
+    position: absolute !important;
+    bottom: 0px !important;
+    right: 0px !important;
+}
+
+.img-left-third-partner {
+    background-image: url(../imgs/partner/Mask\ Group\ 64.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 335px;
+}
+
+.img-left-fourth-partner {
+    background-image: url(../imgs/partner/Mask\ Group\ 65.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 335px;
+}
