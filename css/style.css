@@ -1572,7 +1572,7 @@ hr.new5 {
 }
 
 .text-recent-posts a {
-    right: 5px;
+    right: 10px;
     text-decoration: none;
     color: var(--mainColor);
     font-size: var(--mainFont-size);
