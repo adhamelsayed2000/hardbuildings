@@ -1359,19 +1359,19 @@ hr.new5 {
     height: 100%;
     text-align: center;
     color: #fff;
-    font-family: var(--mainFont-family);
     font-size: 45px;
     position: relative;
 }
 
 .header-new-post-txt p {
     position: absolute;
+    font-family: var(--mainFont-family);
     top: 45%;
     left: 30%;
 }
 
-.contactus-post {
-    margin: 40px 110px !important;
+.container-post {
+    padding: 40px 110px !important;
 }
 
 .post {
