@@ -1582,6 +1582,7 @@ hr.new5 {
 
 .col-recent-posts-second {
     margin: 70px 0px !important;
+    box-shadow: 3px 4px 10px 5px rgba(0, 0, 0, 0.16);
 }
 
 .btn-previous-post {
