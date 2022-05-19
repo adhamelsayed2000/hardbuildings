@@ -2094,3 +2094,175 @@ hr.new5 {
 .section-header-title {
     font-family: var(--mainFont-family);
 }
+
+.our-services-footer {
+    background-color: var(--color);
+    height: 200px !important;
+    position: relative;
+}
+
+.shapes-services {
+    background-color: var(--mainColor);
+}
+
+.shapes-services {
+    position: relative;
+    background: var(--mainColor);
+}
+
+.shapes-services:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100% !important;
+    height: 100%;
+    border-right: 72px solid var(--color);
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+}
+
+.shapes-services h2 {
+    font-family: var(--mainFont-family);
+    font-size: 25px;
+    color: var(--color);
+    padding-left: 80px !important;
+}
+
+.our-services-footer a {
+    position: absolute;
+    bottom: 41%;
+    left: 50%;
+    background-color: var(--mainColor);
+    color: #fff;
+    text-decoration: none;
+    width: 150px !important;
+    height: 34px !important;
+    display: inline-block;
+    padding-top: 5px !important;
+    font-family: var(--liFont-family);
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/**********************************************************project*************************************************************/
+
+
+/***********fillter***************/
+
+.filters {
+    background-color: var(--mainColor);
+    width: 50% !important;
+    height: 60px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.filters li {
+    display: inline-block;
+    height: 100%;
+}
+
+.filters li.active {
+    background-color: var(--color);
+    color: #fff;
+}
+
+.filters li.active a {
+    color: #fff;
+}
+
+.filters li a {
+    text-decoration: none;
+    color: var(--color);
+    font-size: 20px;
+    font-family: var(--mainFont-family);
+    padding: 0px 10px !important;
+    line-height: 55px;
+}
+
+.portfolio {
+    height: auto !important;
+}
+
+
+/* .category-social-media-and-websites {
+    background: #33ccff;
+}
+
+.category-webinars {
+    background: #006699;
+}
+
+.category-partner-engagement {
+    background: #99cc33;
+} */
+
+
+/*- FILTER OPTIONS -*/
+
+
+/* 
+ul#filterOptions {
+    width: 802px;
+    height: 52px;
+    margin: 30px 0;
+    overflow: hidden;
+}
+
+ul#filterOptions li {
+    height: 52px;
+    margin-right: 2px;
+    float: left;
+}
+
+ul#filterOptions li a {
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid #999;
+    background: #cfcfcf;
+    color: #fff;
+    font-weight: bold;
+    line-height: 50px;
+    text-decoration: none;
+    display: block;
+}
+
+ul#filterOptions li a:hover {
+    background: #c9c9c9;
+}
+
+ul#filterOptions li.active a {
+    background: #999;
+} */
+
+
+/*- -*/
+
+
+/*- OUR DATA HOLDER -*/
+
+
+/* 
+#ourHolder {
+    width: 800px;
+    height: 850px;
+    overflow: hidden;
+}
+
+#ourHolder div.item {
+    width: 200px;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+#ourHolder div.item h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+} */
+
+
+/*- -*/
